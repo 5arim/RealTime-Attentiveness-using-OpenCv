@@ -8,7 +8,7 @@ import math
 # Initialize MediaPipe utilities
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
-mp_face_mesh = mp.solutions.face_mesh
+mp_face_mesh = mp.solutions.face_mesh 
 my_drawing_spec = mp_drawing.DrawingSpec(color=(0, 55, 0), thickness=1, circle_radius=1)
 
 # Initialize CSV file
